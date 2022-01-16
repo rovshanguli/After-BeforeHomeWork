@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+body{
+    background-color: #F1F1F1;
+    position: relative;
+    justify-content: center;
+}
+header .row .col-12{
+    height: 14vh;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+}
+header .row .col-12 .text{
+    position: absolute;
+    margin-top: 10px;
+    width: 500px;
+    left: 33%;
+}
+.container{
+    width: 60%;
+    height: 75vh;
+    position: relative;
+    left: 20%;
+}
+.container .row{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin-top: 10px;
+    
+}
+.container .row .col-4{
+    height:  100%;
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 10px;
+    background-color: white;
+}
+.container .row .col-4:hover{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.container .row .col-4 .icon{
+    font-size: 50px;
+}
+.container .row .col-4 .header{
+    margin-top: 10px;
+    font-size: 10px;
+}
+.container .row .col-4 .text{
+    margin-top: 8px;
+    padding-left: 55px;
+    width: 250px;
+}
+footer .button{
+    text-align: center;
+    margin-top: 15px;
+}
+footer .button button{
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    background-color: #F6BF19;
+    color: white;
+    font-size: 20px;
+}
+footer .button button:hover{
+    transform: rotateY(360deg);
+    transition: 0.4s;
+}
